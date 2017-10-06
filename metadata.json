@@ -2,7 +2,7 @@
   "name": "splunk-cluster",
   "version": "1.0",
   "author": "Domnick Eger",
-  "summary": "Deploy Splunk indexers, search heads and universal forwarders into any imaginable topology, distributed or (multisite) clustered.",
+  "summary": "Deploy Splunk indexers, search heads and universal forwarders into any topology, distributed or (multisite) clustered.",
   "license": "Apache 2.0",
   "source": "https://github.com/domeger/puppet-splunk.git",
   "project_page": "https://github.com/domeger/puppet-splunk",
