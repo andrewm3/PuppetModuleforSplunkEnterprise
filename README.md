@@ -167,6 +167,6 @@ node 'idx1.splunkcloud.com', 'idx2.splunkcloud.com' {
 Support
 -------
 
-Are you a Splunk + Puppet customer who enjoys sharing knowledge and want to put some great feature into an opensource project. We encourage you to submit issues and pull request so that we can make this Technical Addon better and help the community as a whole get better insight to their Puppet Enterprise deployments.
+Are you a Splunk + Puppet customer who enjoys sharing knowledge and want to put some great feature into an opensource project. We encourage you to submit issues and pull request so that we can make this Puppet Module better and help the community as a whole.
 
-Feel free to leave comments or questions. We are here to make this community project more adaptive to all types of use cases. 
+Feel free to leave comments or questions. We are here to make this community project more adaptive to all types of use cases.
