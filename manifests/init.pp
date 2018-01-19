@@ -5,6 +5,8 @@ class splunk (
   $splunk_os_user             = $splunk::params::splunk_os_user,
   $splunk_os_group            = $splunk::params::splunk_os_group,
   $splunk_bindip              = $splunk::params::splunk_bindip,
+  $lm                         = $splunk::params::lm,
+  $ds                         = $splunk::params::ds,
   $sslcompatibility           = $splunk::params::sslcompatibility,
   $ciphersuite_modern         = $splunk::params::ciphersuite_modern,
   $sslversions_modern         = $splunk::params::sslversions_modern,
@@ -35,8 +37,8 @@ class splunk (
   $auth                       = $splunk::params::auth,
   $rolemap                    = $splunk::params::rolemap,
   $dontruncmds                = $splunk::params::dontruncmds,
-  $pass4symmkey               = $splunk::params::pass4symmkey,
   $minfreespace               = $splunk::params::minfreespace,
+  $pass4symmkey               = $splunk::params::pass4symmkey,
   $phonehomeintervalinsec     = $splunk::params::phonehomeintervalinsec
   ) inherits splunk::params {
 

@@ -7,7 +7,6 @@ class splunk::params (
   $splunk_bindip  = undef
   $lm             = undef
   $ds             = undef
-  $inputport      = undef
   $outputs        = undef
   $webssl         = true
   $sslcompatibility = 'modern'
@@ -23,6 +22,7 @@ class splunk::params (
   $reuse_puppet_certs = true
   $sslcertpath   = 'certs/s2s.pem'
   $sslrootcapath = 'certs/ca.crt'
+  $inputport      = undef
   $httpport     = undef
   $kvstoreport = undef
   $tcpout      = undef
@@ -38,7 +38,6 @@ class splunk::params (
   }
   $use_ack      = false
   $ds_intermediate = undef
-  $phonehomeintervalinsec = 60
   $repositorylocation = undef
   $version     = undef
   $auth                         = {
@@ -52,4 +51,5 @@ class splunk::params (
   $dontruncmds = false
   $minfreespace = undef
   $pass4symmkey = 'changeme'
+  $phonehomeintervalinsec = 60
 }
